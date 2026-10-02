@@ -1,3 +1,4 @@
+import ExclusiveOffers from '../components/ExclusiveOffers';
 import { FeatureDistination } from '../components/FeatureDistination';
 import Hero from '../components/Hero';
 
@@ -6,6 +7,7 @@ function Home() {
         <>
             <Hero />
             <FeatureDistination />
+            <ExclusiveOffers />
         </>
     );
 }
